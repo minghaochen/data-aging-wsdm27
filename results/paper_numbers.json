@@ -1,0 +1,1709 @@
+{
+  "panel": {
+    "kuairand": {
+      "sf_freshest": 0.6173,
+      "age_min": 2.5,
+      "age_max": 26.5,
+      "test_days": 3.0,
+      "subsample": 28849,
+      "n_test": 43236,
+      "n_events": 1436609,
+      "n_items": 7551,
+      "n_users": 27077,
+      "span_days": 29.5,
+      "pos_rate": 0.4597
+    },
+    "recflow": {
+      "sf_freshest": 0.1927,
+      "age_min": 2.5,
+      "age_max": 26.5,
+      "test_days": 3.0,
+      "subsample": 300000,
+      "n_test": 2902743,
+      "n_events": 30259314,
+      "n_items": 7157647,
+      "n_users": 36729,
+      "span_days": 29.0,
+      "pos_rate": 0.3797
+    },
+    "kuairec": {
+      "sf_freshest": 0.9094,
+      "age_min": 4.0,
+      "age_max": 36.0,
+      "test_days": 5.0,
+      "subsample": 300000,
+      "n_test": 118970,
+      "n_events": 12530806,
+      "n_items": 10728,
+      "n_users": 7176,
+      "span_days": 79.0,
+      "pos_rate": 0.3382
+    },
+    "ml25m": {
+      "sf_freshest": 0.169,
+      "age_min": 450.0,
+      "age_max": 4770.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 607080,
+      "n_events": 25000095,
+      "n_items": 59047,
+      "n_users": 162541,
+      "span_days": 9081.9,
+      "pos_rate": 0.4981
+    },
+    "netflix": {
+      "sf_freshest": 0.2983,
+      "age_min": 270.0,
+      "age_max": 1710.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 25830119,
+      "n_events": 100480507,
+      "n_items": 17770,
+      "n_users": 480189,
+      "span_days": 2242.0,
+      "pos_rate": 0.5665
+    },
+    "yelp": {
+      "sf_freshest": 0.3083,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 293229,
+      "n_events": 6990280,
+      "n_items": 150346,
+      "n_users": 1987929,
+      "span_days": 6181.0,
+      "pos_rate": 0.6702
+    },
+    "steam": {
+      "sf_freshest": 0.004,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 45868,
+      "n_test": 4032538,
+      "n_events": 21747371,
+      "n_items": 315,
+      "n_users": 12406560,
+      "span_days": 3717.9,
+      "pos_rate": 0.8747
+    },
+    "beer": {
+      "sf_freshest": 0.6155,
+      "age_min": 270.0,
+      "age_max": 2790.0,
+      "test_days": 180.0,
+      "subsample": 68185,
+      "n_test": 160074,
+      "n_events": 1586266,
+      "n_items": 66051,
+      "n_users": 33387,
+      "span_days": 5620.5,
+      "pos_rate": 0.6293
+    },
+    "epinions": {
+      "sf_freshest": 0.0687,
+      "age_min": 60.0,
+      "age_max": 420.0,
+      "test_days": 60.0,
+      "subsample": 300000,
+      "n_test": 356344,
+      "n_events": 13668320,
+      "n_items": 755760,
+      "n_users": 120492,
+      "span_days": 505.0,
+      "pos_rate": 0.7695
+    },
+    "gameugc_play": {
+      "sf_freshest": 0.0907,
+      "age_min": 2.5,
+      "age_max": 514.5,
+      "test_days": 3.0,
+      "subsample": 27330,
+      "n_test": 135522,
+      "n_events": 42840704,
+      "n_items": 274287,
+      "n_users": 4480315,
+      "span_days": 545.0,
+      "pos_rate": 0.7925
+    },
+    "gameugc_finish": {
+      "sf_freshest": 0.0907,
+      "age_min": 2.5,
+      "age_max": 514.5,
+      "test_days": 3.0,
+      "subsample": 27330,
+      "n_test": 135522,
+      "n_events": 42840704,
+      "n_items": 274287,
+      "n_users": 4480315,
+      "span_days": 545.0,
+      "pos_rate": 0.4492
+    },
+    "amz_Appliances": {
+      "sf_freshest": 0.0148,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 97856,
+      "n_test": 53681,
+      "n_events": 2103990,
+      "n_items": 94319,
+      "n_users": 1755732,
+      "span_days": 8359.1,
+      "pos_rate": 0.7962
+    },
+    "amz_Arts_Crafts_and_Sewing": {
+      "sf_freshest": 0.0687,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 206831,
+      "n_events": 8841661,
+      "n_items": 801277,
+      "n_users": 4624798,
+      "span_days": 9311.1,
+      "pos_rate": 0.7871
+    },
+    "amz_Automotive": {
+      "sf_freshest": 0.0383,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 548740,
+      "n_events": 19692836,
+      "n_items": 2003039,
+      "n_users": 8019747,
+      "span_days": 9367.1,
+      "pos_rate": 0.7827
+    },
+    "amz_Baby_Products": {
+      "sf_freshest": 0.0901,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 118719,
+      "n_events": 5953891,
+      "n_items": 217654,
+      "n_users": 3386206,
+      "span_days": 8494.0,
+      "pos_rate": 0.782
+    },
+    "amz_CDs_and_Vinyl": {
+      "sf_freshest": 0.0653,
+      "age_min": 270.0,
+      "age_max": 6030.0,
+      "test_days": 180.0,
+      "subsample": 62200,
+      "n_test": 21321,
+      "n_events": 4772071,
+      "n_items": 701673,
+      "n_users": 1754118,
+      "span_days": 9496.5,
+      "pos_rate": 0.8734
+    },
+    "amz_Kindle_Store": {
+      "sf_freshest": 0.1588,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 278515,
+      "n_events": 25302305,
+      "n_items": 1590697,
+      "n_users": 5646991,
+      "span_days": 8781.9,
+      "pos_rate": 0.8634
+    },
+    "amz_Musical_Instruments": {
+      "sf_freshest": 0.1007,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 165360,
+      "n_test": 56777,
+      "n_events": 2975551,
+      "n_items": 213571,
+      "n_users": 1762679,
+      "span_days": 8783.7,
+      "pos_rate": 0.8035
+    },
+    "amz_Office_Products": {
+      "sf_freshest": 0.0452,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 276953,
+      "n_events": 12689349,
+      "n_items": 710403,
+      "n_users": 7613158,
+      "span_days": 9101.7,
+      "pos_rate": 0.7866
+    },
+    "amz_Pet_Supplies": {
+      "sf_freshest": 0.0448,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 409518,
+      "n_events": 16597408,
+      "n_items": 492726,
+      "n_users": 7778407,
+      "span_days": 9294.0,
+      "pos_rate": 0.7481
+    },
+    "amz_Software": {
+      "sf_freshest": 0.0966,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 53915,
+      "n_test": 13687,
+      "n_events": 4828480,
+      "n_items": 89246,
+      "n_users": 2589466,
+      "span_days": 8945.9,
+      "pos_rate": 0.7224
+    },
+    "amz_Toys_and_Games": {
+      "sf_freshest": 0.0566,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 300000,
+      "n_test": 358277,
+      "n_events": 16052440,
+      "n_items": 890667,
+      "n_users": 8116226,
+      "span_days": 9095.9,
+      "pos_rate": 0.7846
+    },
+    "amz_Video_Games": {
+      "sf_freshest": 0.0729,
+      "age_min": 270.0,
+      "age_max": 3150.0,
+      "test_days": 180.0,
+      "subsample": 217575,
+      "n_test": 78842,
+      "n_events": 4555500,
+      "n_items": 137249,
+      "n_users": 2766656,
+      "span_days": 9064.5,
+      "pos_rate": 0.745
+    }
+  },
+  "two_term": {
+    "kuairand": {
+      "sf_hi": 0.6173096493662689,
+      "sf_lo": 0.4942177814783976,
+      "slope_overall": 0.0023435963212369566,
+      "slope_warm": 0.001197188897845693,
+      "slope_cold": 0.0030548337372464625,
+      "amp_overall": 0.007080535093943241,
+      "amp_cold": 0.007602681958100321
+    },
+    "recflow": {
+      "sf_hi": 0.192702213044696,
+      "sf_lo": 0.0261546865614122,
+      "slope_overall": 0.002762896458853817,
+      "slope_warm": 0.001260461599761602,
+      "slope_cold": 0.0038898289788202576,
+      "amp_overall": 0.006910721460978153,
+      "amp_cold": 0.009710888474187107
+    },
+    "kuairec": {
+      "sf_hi": 0.9093917234036591,
+      "sf_lo": 0.04685775125381749,
+      "slope_overall": 0.05659354598771122,
+      "slope_warm": 0.0787929458853696,
+      "slope_cold": -0.004074370348666775,
+      "amp_overall": 0.13020741939544678,
+      "amp_cold": 0.024612167718560007
+    },
+    "ml25m": {
+      "sf_hi": 0.1690403241747381,
+      "sf_lo": 0.0050800553469065035,
+      "slope_overall": 0.01215782607098831,
+      "slope_warm": 0.015680700471069915,
+      "slope_cold": 0.010077174399979972,
+      "amp_overall": 0.028519868850708008,
+      "amp_cold": 0.02340026664968553
+    },
+    "netflix": {
+      "sf_hi": 0.29831417604644667,
+      "sf_lo": 0.0040347084734685115,
+      "slope_overall": 0.02293209179580259,
+      "slope_warm": 0.0002361902134925269,
+      "slope_cold": 0.0255250004986658,
+      "amp_overall": 0.0375572840372721,
+      "amp_cold": 0.04218281745115815
+    },
+    "yelp": {
+      "sf_hi": 0.3083267116599427,
+      "sf_lo": 0.02240683333958556,
+      "slope_overall": 0.01060645001861318,
+      "slope_warm": 0.05520720224714793,
+      "slope_cold": 0.004114917560959366,
+      "amp_overall": 0.02614484230677283,
+      "amp_cold": 0.009915994896320557
+    },
+    "steam": {
+      "sf_hi": 0.003955160083633021,
+      "sf_lo": 5.802797146610894e-05,
+      "slope_overall": 0.03575920738251293,
+      "slope_warm": -0.06318718957067623,
+      "slope_cold": 0.036244664306749746,
+      "amp_overall": 0.08507219950358069,
+      "amp_cold": 0.08622444957536324
+    },
+    "beer": {
+      "sf_hi": 0.615454935425699,
+      "sf_lo": 0.0075402626285343026,
+      "slope_overall": 0.011183328695288899,
+      "slope_warm": 0.2551016267702144,
+      "slope_cold": 0.006023777650729797,
+      "amp_overall": 0.027460237344106075,
+      "amp_cold": 0.013075618834846092
+    },
+    "epinions": {
+      "sf_hi": 0.0686826961213509,
+      "sf_lo": 0.010584341722230953,
+      "slope_overall": 0.0022075491869086293,
+      "slope_warm": 0.44931352537291946,
+      "slope_cold": -0.012246116802259004,
+      "amp_overall": 0.021233002344767216,
+      "amp_cold": 0.025790614093174957
+    },
+    "gameugc_play": {
+      "sf_hi": 0.09068146377217967,
+      "sf_lo": 0.0020144330809757824,
+      "slope_overall": -0.0010149259058790084,
+      "slope_warm": 0.050539530693644086,
+      "slope_cold": 0.00021968969837954933,
+      "amp_overall": 0.01928148667017615,
+      "amp_cold": 0.022563980822840612
+    },
+    "gameugc_finish": {
+      "sf_hi": 0.09068146377217967,
+      "sf_lo": 0.0020144330809757824,
+      "slope_overall": 0.0029907028819997415,
+      "slope_warm": 0.047693825220323685,
+      "slope_cold": 0.0032081194611717585,
+      "amp_overall": 0.02442920207977295,
+      "amp_cold": 0.026002108829518478
+    },
+    "amz_Appliances": {
+      "sf_hi": 0.014778661599696976,
+      "sf_lo": 0.00026079991058288783,
+      "slope_overall": 0.0071670976765224595,
+      "slope_warm": 0.11415952993727738,
+      "slope_cold": 0.008315738007786613,
+      "amp_overall": 0.019102632999420166,
+      "amp_cold": 0.02173601833196115
+    },
+    "amz_Arts_Crafts_and_Sewing": {
+      "sf_hi": 0.06874694799135526,
+      "sf_lo": 0.000754238968046376,
+      "slope_overall": 0.0022230559689063577,
+      "slope_warm": 0.07423267348562475,
+      "slope_cold": 0.0010032112156462148,
+      "amp_overall": 0.007943252722422245,
+      "amp_cold": 0.004869902910176305
+    },
+    "amz_Automotive": {
+      "sf_hi": 0.03825369634678233,
+      "sf_lo": 0.0012768645746012077,
+      "slope_overall": 0.0030119723343319826,
+      "slope_warm": 0.017697159528812467,
+      "slope_cold": 0.001954230995821628,
+      "amp_overall": 0.008061369260152218,
+      "amp_cold": 0.005126918637179401
+    },
+    "amz_Baby_Products": {
+      "sf_hi": 0.0900810597573542,
+      "sf_lo": 0.0002723517999084673,
+      "slope_overall": 0.0031225359722553683,
+      "slope_warm": 0.19051413900491992,
+      "slope_cold": 0.004311825334216964,
+      "amp_overall": 0.010009467601776123,
+      "amp_cold": 0.01366222587359267
+    },
+    "amz_CDs_and_Vinyl": {
+      "sf_hi": 0.06528774447727592,
+      "sf_lo": 0.0007504338445663899,
+      "slope_overall": -0.0014504902916147,
+      "slope_warm": -0.01598832171977796,
+      "slope_cold": 0.0032684376670691732,
+      "amp_overall": 0.013432830572128296,
+      "amp_cold": 0.013494606269954523
+    },
+    "amz_Kindle_Store": {
+      "sf_hi": 0.1587790005325865,
+      "sf_lo": 0.0015187691865788198,
+      "slope_overall": 0.005674845111720696,
+      "slope_warm": 0.0219299402691477,
+      "slope_cold": 0.01712886256481152,
+      "amp_overall": 0.02503065268198651,
+      "amp_cold": 0.04459519372787191
+    },
+    "amz_Musical_Instruments": {
+      "sf_hi": 0.1006745689275587,
+      "sf_lo": 0.0024070779834557423,
+      "slope_overall": -0.0016006714453752973,
+      "slope_warm": 0.10340894294064659,
+      "slope_cold": -0.002142426383665454,
+      "amp_overall": 0.00819043318430579,
+      "amp_cold": 0.008447494936153044
+    },
+    "amz_Office_Products": {
+      "sf_hi": 0.045239926389435504,
+      "sf_lo": 0.0006523369187792393,
+      "slope_overall": 0.0047966395240571615,
+      "slope_warm": 0.12865726409421918,
+      "slope_cold": 0.0036110961647319866,
+      "amp_overall": 0.012563188870747921,
+      "amp_cold": 0.00890628902328694
+    },
+    "amz_Pet_Supplies": {
+      "sf_hi": 0.04477784452291067,
+      "sf_lo": 0.0011509465599395714,
+      "slope_overall": 0.00524110982921361,
+      "slope_warm": 0.1652363318725322,
+      "slope_cold": 0.004372628135474654,
+      "amp_overall": 0.01570238669713342,
+      "amp_cold": 0.01316340675663108
+    },
+    "amz_Software": {
+      "sf_hi": 0.09663671123450475,
+      "sf_lo": 0.0006819122768563844,
+      "slope_overall": 0.012800731736866628,
+      "slope_warm": 0.18454206004587662,
+      "slope_cold": 0.011647947467125485,
+      "amp_overall": 0.03252663215001428,
+      "amp_cold": 0.02873811888346256
+    },
+    "amz_Toys_and_Games": {
+      "sf_hi": 0.05657447542916049,
+      "sf_lo": 0.00024003773616503433,
+      "slope_overall": 0.0026928172619061622,
+      "slope_warm": 0.15079090684031765,
+      "slope_cold": 0.001163073268652111,
+      "amp_overall": 0.009248336156209347,
+      "amp_cold": 0.003794054950124748
+    },
+    "amz_Video_Games": {
+      "sf_hi": 0.07293912719954676,
+      "sf_lo": 0.00026212763078900417,
+      "slope_overall": 0.0037097868348116244,
+      "slope_warm": 0.11869486198517266,
+      "slope_cold": 0.00411481149576725,
+      "amp_overall": 0.011813799540201786,
+      "amp_cold": 0.01065030672212619
+    }
+  },
+  "dictionary": {
+    "domains": [
+      {
+        "dom": "kuairand",
+        "delta": 2.198578205024304,
+        "r2": 0.9342476974948585,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -0.09006735793456026
+      },
+      {
+        "dom": "recflow",
+        "delta": 1.6952425947933627,
+        "r2": 0.9620968151415036,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -0.8753757994634346
+      },
+      {
+        "dom": "kuairec",
+        "delta": 0.3144191777905896,
+        "r2": 0.8361430606334843,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.3597565236381701
+      },
+      {
+        "dom": "ml25m",
+        "delta": 0.9047679490944297,
+        "r2": 0.8337373713620366,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.4534078172031448
+      },
+      {
+        "dom": "netflix",
+        "delta": 1.2444773181618713,
+        "r2": 0.8715074691014058,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -2.2671005787897327
+      },
+      {
+        "dom": "yelp",
+        "delta": 0.2079255314354365,
+        "r2": 0.9088752921317712,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.0154021456836488
+      },
+      {
+        "dom": "steam",
+        "delta": 1.2081534062358217,
+        "r2": 0.8832215532750644,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -0.9405249181424639
+      },
+      {
+        "dom": "beer",
+        "delta": -0.62109409467652,
+        "r2": 0.9305438799041579,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.8468862964730635
+      },
+      {
+        "dom": "epinions",
+        "delta": -1.0,
+        "r2": 0.5351204721910259,
+        "at_bound": true,
+        "no_drift": true,
+        "e_cov": -0.878287270246841
+      },
+      {
+        "dom": "gameugc_play",
+        "delta": -1.0,
+        "r2": 0.22619166601518093,
+        "at_bound": true,
+        "no_drift": true,
+        "e_cov": -0.6635107224110166
+      },
+      {
+        "dom": "gameugc_finish",
+        "delta": -1.0,
+        "r2": 0.7195050670693315,
+        "at_bound": true,
+        "no_drift": false,
+        "e_cov": -0.6635107224110166
+      },
+      {
+        "dom": "amz_Appliances",
+        "delta": 0.4120488334260357,
+        "r2": 0.8031967566379768,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.5869355337844144
+      },
+      {
+        "dom": "amz_Arts_Crafts_and_Sewing",
+        "delta": -1.0,
+        "r2": 0.8206865451422076,
+        "at_bound": true,
+        "no_drift": false,
+        "e_cov": -1.8175617098437133
+      },
+      {
+        "dom": "amz_Automotive",
+        "delta": -0.24405330772257988,
+        "r2": 0.9006129212024699,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.3602864258973064
+      },
+      {
+        "dom": "amz_Baby_Products",
+        "delta": -1.0,
+        "r2": 0.8774880572262195,
+        "at_bound": true,
+        "no_drift": false,
+        "e_cov": -2.2593179200266285
+      },
+      {
+        "dom": "amz_CDs_and_Vinyl",
+        "delta": 4.0,
+        "r2": 0.05625003460469513,
+        "at_bound": true,
+        "no_drift": true,
+        "e_cov": -1.457687589076354
+      },
+      {
+        "dom": "amz_Kindle_Store",
+        "delta": 4.0,
+        "r2": 0.3233301473793688,
+        "at_bound": true,
+        "no_drift": true,
+        "e_cov": -1.8303004405041772
+      },
+      {
+        "dom": "amz_Musical_Instruments",
+        "delta": -1.0,
+        "r2": 0.25237598370022785,
+        "at_bound": true,
+        "no_drift": false,
+        "e_cov": -1.502879866216317
+      },
+      {
+        "dom": "amz_Office_Products",
+        "delta": -0.43817304732408585,
+        "r2": 0.8980890349337134,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.6307329333821639
+      },
+      {
+        "dom": "amz_Pet_Supplies",
+        "delta": -0.5870551143216302,
+        "r2": 0.8637709677767044,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -1.4258350592739697
+      },
+      {
+        "dom": "amz_Software",
+        "delta": 0.07346573280049792,
+        "r2": 0.899016897567332,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -2.003141905062101
+      },
+      {
+        "dom": "amz_Toys_and_Games",
+        "delta": -1.0,
+        "r2": 0.8073596083472511,
+        "at_bound": true,
+        "no_drift": false,
+        "e_cov": -2.1182235332483192
+      },
+      {
+        "dom": "amz_Video_Games",
+        "delta": -0.8597649606823549,
+        "r2": 0.8718824206448788,
+        "at_bound": false,
+        "no_drift": false,
+        "e_cov": -2.223486622889409
+      }
+    ],
+    "n_all": 19,
+    "spearman_all": 0.4053256062942415,
+    "p_all": 0.08513774148632007,
+    "pearson_all": 0.5269147047394809,
+    "n_interior": 14,
+    "spearman_interior": 0.5252747252747253,
+    "p_interior": 0.05374750176788299,
+    "pearson_interior": 0.62645043086947
+  },
+  "probe_spread": {
+    "kuairand:apparent": {
+      "values": {
+        "kuairand": 2.198578205024304,
+        "kuairand__dim128": 2.017404518234505,
+        "kuairand__dim64": 2.7511822337891614,
+        "kuairand__dim8": 2.1451674972705685
+      },
+      "cis": {
+        "kuairand": [
+          1.9319942815235245,
+          2.5192356465291286
+        ],
+        "kuairand__dim128": [
+          1.751612785849313,
+          2.2737411566060444
+        ],
+        "kuairand__dim64": [
+          2.154998646244639,
+          3.6140340459379603
+        ],
+        "kuairand__dim8": [
+          1.857829826016491,
+          2.5062860212907685
+        ]
+      },
+      "spread": 0.7337777155546563,
+      "seed_ci_width": 0.8042153326824836
+    },
+    "kuairand:cohort_loss": {
+      "values": {
+        "kuairand__cohort": 2.2757146510202615,
+        "kuairand__cohort__dim128": 2.79254623961296,
+        "kuairand__cohort__dim64": 3.7792227649547634,
+        "kuairand__cohort__dim8": 2.642416434669633
+      },
+      "cis": {
+        "kuairand__cohort": [
+          2.0944930036740472,
+          2.4508326752760965
+        ],
+        "kuairand__cohort__dim128": [
+          1.9753075399063205,
+          3.5140647169558394
+        ],
+        "kuairand__cohort__dim64": [
+          3.033835832647511,
+          4.0
+        ],
+        "kuairand__cohort__dim8": [
+          2.2088783813600528,
+          3.233397159979001
+        ]
+      },
+      "spread": 1.503508113934502,
+      "seed_ci_width": 0.9714449486557513
+    },
+    "kuairand:cohort_true": {
+      "values": {
+        "kuairand__cohort": 0.3217716891947121,
+        "kuairand__cohort__dim128": 0.5695451341897299,
+        "kuairand__cohort__dim64": 0.04921448493119535,
+        "kuairand__cohort__dim8": 0.2701600962720562
+      },
+      "cis": {
+        "kuairand__cohort": [
+          0.0689109255608679,
+          0.5917115326235283
+        ],
+        "kuairand__cohort__dim128": [
+          0.2884793270715041,
+          0.8441203049250795
+        ],
+        "kuairand__cohort__dim64": [
+          -0.6703434623578974,
+          0.8876773449517472
+        ],
+        "kuairand__cohort__dim8": [
+          -0.2212498893132405,
+          0.9474385604999778
+        ]
+      },
+      "spread": 0.5203306492585345,
+      "seed_ci_width": 0.9512877105097746
+    },
+    "recflow:apparent": {
+      "values": {
+        "recflow": 1.6952425947933627,
+        "recflow__dim128": 1.8400980907031872,
+        "recflow__dim64": 1.842706382056364,
+        "recflow__dim8": 1.5141285824043742
+      },
+      "cis": {
+        "recflow": [
+          1.6002612012614144,
+          1.7764739911375695
+        ],
+        "recflow__dim128": [
+          1.7292168186269756,
+          1.9151642237222015
+        ],
+        "recflow__dim64": [
+          1.740244905555835,
+          1.9240602324855096
+        ],
+        "recflow__dim8": [
+          1.42369124572906,
+          1.586387665344099
+        ]
+      },
+      "spread": 0.32857779965198985,
+      "seed_ci_width": 0.17716798537902362
+    },
+    "recflow:cohort_loss": {
+      "values": {
+        "recflow__cohort": 1.0822524004404739,
+        "recflow__cohort__dim128": 1.2205479872936371,
+        "recflow__cohort__dim64": 1.2397988618344744,
+        "recflow__cohort__dim8": 0.8551636653797807
+      },
+      "cis": {
+        "recflow__cohort": [
+          1.0592252012327377,
+          1.106471372184333
+        ],
+        "recflow__cohort__dim128": [
+          1.1682132981827327,
+          1.2681230379126391
+        ],
+        "recflow__cohort__dim64": [
+          1.2037005726279288,
+          1.2745304073533155
+        ],
+        "recflow__cohort__dim8": [
+          0.8333464152533413,
+          0.878553290951327
+        ]
+      },
+      "spread": 0.3846351964546937,
+      "seed_ci_width": 0.06579815527621849
+    },
+    "recflow:cohort_true": {
+      "values": {
+        "recflow__cohort": 2.4162340021851043,
+        "recflow__cohort__dim128": 4.0,
+        "recflow__cohort__dim64": 4.0,
+        "recflow__cohort__dim8": 4.0
+      },
+      "cis": {
+        "recflow__cohort": [
+          1.319154401751002,
+          4.0
+        ],
+        "recflow__cohort__dim128": [
+          3.269612338353714,
+          4.0
+        ],
+        "recflow__cohort__dim64": [
+          2.2683723146049792,
+          4.0
+        ],
+        "recflow__cohort__dim8": [
+          3.112859360489178,
+          4.0
+        ]
+      },
+      "spread": 1.5837659978148957,
+      "seed_ci_width": 1.5075003962002818
+    },
+    "ml25m:apparent": {
+      "values": {
+        "ml25m": 0.9047679490944297,
+        "ml25m__dim64": 0.9628920001092883
+      },
+      "cis": {
+        "ml25m": [
+          0.8272098231149889,
+          0.966138267061003
+        ],
+        "ml25m__dim64": [
+          0.9265324059779303,
+          1.007064286031042
+        ]
+      },
+      "spread": 0.058124051014858624,
+      "seed_ci_width": 0.10973016199956287
+    },
+    "ml25m:cohort_loss": {
+      "values": {
+        "ml25m__cohort": 0.21288301402693346,
+        "ml25m__cohort__dim64": 0.20556349747147037
+      },
+      "cis": {
+        "ml25m__cohort": [
+          0.14613091447338172,
+          0.27806715963596146
+        ],
+        "ml25m__cohort__dim64": [
+          0.16909856187885794,
+          0.2382819864527923
+        ]
+      },
+      "spread": 0.00731951655546309,
+      "seed_ci_width": 0.10055983486825705
+    },
+    "ml25m:cohort_true": {
+      "values": {
+        "ml25m__cohort": -0.2942805367630249,
+        "ml25m__cohort__dim64": -1.0
+      },
+      "cis": {
+        "ml25m__cohort": [
+          -0.8486243470188141,
+          0.7392171120991546
+        ],
+        "ml25m__cohort__dim64": [
+          -1.0,
+          -0.7649390255396626
+        ]
+      },
+      "spread": 0.7057194632369751,
+      "seed_ci_width": 0.911451216789153
+    }
+  },
+  "boundary": {
+    "loss": {
+      "n": 68,
+      "n_at_bound": 21,
+      "at_bound": [
+        "amz_Arts_Crafts_and_Sewing",
+        "amz_Arts_Crafts_and_Sewing__icohort",
+        "amz_Baby_Products",
+        "amz_Baby_Products__icohort",
+        "amz_CDs_and_Vinyl",
+        "amz_CDs_and_Vinyl__icohort",
+        "amz_Kindle_Store",
+        "amz_Kindle_Store__icohort",
+        "amz_Musical_Instruments",
+        "amz_Musical_Instruments__icohort",
+        "amz_Office_Products__icohort",
+        "amz_Pet_Supplies__icohort",
+        "amz_Toys_and_Games",
+        "amz_Toys_and_Games__icohort",
+        "amz_Video_Games__icohort",
+        "amz_Video_Games__mlp",
+        "epinions",
+        "gameugc_finish",
+        "gameugc_finish__icohort",
+        "gameugc_play",
+        "gameugc_play__icohort"
+      ],
+      "n_descending": 5,
+      "n_no_drift": 8
+    },
+    "loss_cohort": {
+      "n": 33,
+      "n_at_bound": 16,
+      "at_bound": [
+        "amz_Arts_Crafts_and_Sewing__icohort",
+        "amz_Baby_Products__icohort",
+        "amz_CDs_and_Vinyl__icohort",
+        "amz_Kindle_Store__icohort",
+        "amz_Musical_Instruments__icohort",
+        "amz_Software__icohort",
+        "beer__cohort",
+        "gameugc_finish__icohort",
+        "gameugc_play__icohort",
+        "ml25m__cohort__dim64",
+        "netflix__cohort",
+        "recflow__cohort__dim128",
+        "recflow__cohort__dim64",
+        "recflow__cohort__dim8",
+        "steam__icohort",
+        "yelp__cohort"
+      ],
+      "n_descending": 6,
+      "n_no_drift": 8
+    },
+    "loss_widebox": {
+      "n": 68,
+      "n_at_bound": 10,
+      "at_bound": [
+        "amz_Arts_Crafts_and_Sewing__icohort",
+        "amz_CDs_and_Vinyl",
+        "amz_CDs_and_Vinyl__icohort",
+        "amz_Kindle_Store",
+        "amz_Kindle_Store__icohort",
+        "amz_Musical_Instruments__icohort",
+        "amz_Video_Games__mlp",
+        "epinions",
+        "gameugc_play",
+        "gameugc_play__icohort"
+      ],
+      "n_descending": 1,
+      "n_no_drift": 7
+    }
+  },
+  "blind": {
+    "rows": [
+      {
+        "dom": "amz_Musical_Instruments",
+        "M1": 0.1582369763119984,
+        "M2": -0.9999999999999922,
+        "measured": -1.0,
+        "measured_ci": [
+          -1.0,
+          -1.0
+        ],
+        "r2": 0.25237598370022785,
+        "at_bound": true,
+        "no_drift": false,
+        "measured_widebox": -3.200948572188175,
+        "widebox_at_bound": false
+      },
+      {
+        "dom": "amz_Arts_Crafts_and_Sewing",
+        "M1": -0.3111168686413537,
+        "M2": -0.9999992458869706,
+        "measured": -1.0,
+        "measured_ci": [
+          -1.0,
+          -1.0
+        ],
+        "r2": 0.8206865451422076,
+        "at_bound": true,
+        "no_drift": false,
+        "measured_widebox": -1.1389465398914491,
+        "widebox_at_bound": false
+      },
+      {
+        "dom": "amz_Automotive",
+        "M1": 0.3413757759941132,
+        "M2": -0.5641744385639511,
+        "measured": -0.24405330772257988,
+        "measured_ci": [
+          -0.266044140598356,
+          -0.22190514245956885
+        ],
+        "r2": 0.9006129212024699,
+        "at_bound": false,
+        "no_drift": false,
+        "measured_widebox": -0.24405335515687804,
+        "widebox_at_bound": false
+      },
+      {
+        "dom": "amz_Kindle_Store",
+        "M1": -0.3292939456664037,
+        "M2": -0.9999999999999982,
+        "measured": 4.0,
+        "measured_ci": [
+          4.0,
+          4.0
+        ],
+        "r2": 0.3233301473793688,
+        "at_bound": true,
+        "no_drift": true,
+        "measured_widebox": 4.0,
+        "widebox_at_bound": true
+      }
+    ],
+    "tolerance": 0.35,
+    "scored_in_registration_box": {
+      "M1": {
+        "n": 3,
+        "hits": 0,
+        "mae": 0.8108497304624459
+      },
+      "M2": {
+        "n": 3,
+        "hits": 3,
+        "mae": 0.10670729498480279
+      },
+      "const_-1": {
+        "n": 3,
+        "hits": 2,
+        "mae": 0.25198223075914
+      },
+      "const_mean_measured": {
+        "n": 3,
+        "hits": 2,
+        "mae": 0.3359763076788534
+      }
+    },
+    "scored_in_wide_box": {
+      "M1": {
+        "n": 3,
+        "hits": 0,
+        "mae": 1.5908147836337532
+      },
+      "M2": {
+        "n": 3,
+        "hits": 2,
+        "mae": 0.8866723165332447
+      },
+      "const_-1": {
+        "n": 3,
+        "hits": 1,
+        "mae": 1.0319472523075819
+      },
+      "const_mean_measured": {
+        "n": 3,
+        "hits": 0,
+        "mae": 1.1159413292272955
+      }
+    }
+  },
+  "weekday_control": {
+    "kuairand": {
+      "main_W2": {
+        "tau_half": 11.71675987742778,
+        "lo": 9.652005119021474,
+        "hi": 12.542627368486116,
+        "amp_mnat": 11.405282550387863,
+        "seeds_per_age": 9,
+        "n_ages": 7,
+        "age_min": 2.5,
+        "age_max": 26.5,
+        "n_cohort": 3772
+      },
+      "ctrl_W7": {
+        "tau_half": 14.414043861225661,
+        "lo": 5.828965441718989,
+        "hi": 15.305556367452152,
+        "amp_mnat": 5.566497643788693,
+        "seeds_per_age": 3,
+        "n_ages": 6,
+        "age_min": 5.0,
+        "age_max": 18.0,
+        "n_cohort": 8871
+      }
+    },
+    "recflow": {
+      "main_W2": {
+        "tau_half": 20.019312488335604,
+        "lo": 15.569395615614706,
+        "hi": 21.35117210758624,
+        "amp_mnat": 13.531267642974854,
+        "seeds_per_age": 9,
+        "n_ages": 7,
+        "age_min": 2.5,
+        "age_max": 26.5,
+        "n_cohort": 4090
+      },
+      "ctrl_W7": {
+        "tau_half": 9.906011368099447,
+        "lo": 8.731601967365282,
+        "hi": 10.851189048749255,
+        "amp_mnat": 12.034714221954346,
+        "seeds_per_age": 3,
+        "n_ages": 6,
+        "age_min": 5.0,
+        "age_max": 18.0,
+        "n_cohort": 15815
+      }
+    }
+  },
+  "horizon": {
+    "kuairand__cohort": {
+      "seeds_per_cell": 9,
+      "source": "kuairand__cohort",
+      "tau_half": 11.71675987742778,
+      "tau_max": 26.5,
+      "tau_min": 2.5,
+      "frac_of_horizon": 0.44214188216708605,
+      "decades": 1.0253058652647702,
+      "truncations": {
+        "6.5": 3.5648360083944812,
+        "10.5": 3.492403764232408,
+        "18.5": 11.53946500222851,
+        "26.5": 11.71675987742778
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 4.728252187594373
+    },
+    "kuairec__cohort": {
+      "seeds_per_cell": 9,
+      "source": "kuairec__cohort",
+      "tau_half": 18.940104234212463,
+      "tau_max": 36.0,
+      "tau_min": 4.0,
+      "frac_of_horizon": 0.5261140065059018,
+      "decades": 0.9542425094393249,
+      "truncations": {
+        "12.0": 5.5002915082641275,
+        "36.0": 18.940104234212463
+      },
+      "saturating": null,
+      "rate_mnat_per_efold": 80.72109149462933
+    },
+    "ml25m__cohort": {
+      "seeds_per_cell": 9,
+      "source": "ml25m__p0cohort",
+      "tau_half": 1263.023603974453,
+      "tau_max": 4770.0,
+      "tau_min": 450.0,
+      "frac_of_horizon": 0.26478482263615366,
+      "decades": 1.0253058652647702,
+      "truncations": {
+        "810.0": 700.7008408733655,
+        "1170.0": 859.1506407236378,
+        "1890.0": 1031.05487683775,
+        "3330.0": 905.5333659041912,
+        "4770.0": 1263.023603974453
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 51.324956414603555
+    },
+    "recflow__cohort": {
+      "seeds_per_cell": 9,
+      "source": "recflow__cohort",
+      "tau_half": 20.019312488335604,
+      "tau_max": 26.5,
+      "tau_min": 2.5,
+      "frac_of_horizon": 0.7554457542768153,
+      "decades": 1.0253058652647702,
+      "truncations": {
+        "6.5": 5.741083122101351,
+        "10.5": 5.2536059147870064,
+        "18.5": 6.182215332907622,
+        "26.5": 20.019312488335604
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 4.4753411568655475
+    },
+    "yelp__cohort": {
+      "seeds_per_cell": 9,
+      "source": "yelp__cohort",
+      "tau_half": 2211.429802060191,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.7020412070032352,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 330.060178470601,
+        "1710.0": 436.96617785336406,
+        "3150.0": 2211.429802060191
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 54.51623482304997
+    },
+    "amz_Appliances__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Appliances__icohort",
+      "tau_half": 820.0619506571281,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.2603371271927391,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 795.0807944120828,
+        "1710.0": 751.201389770305,
+        "3150.0": 820.0619506571281
+      },
+      "saturating": true,
+      "rate_mnat_per_efold": 4.960606585750735
+    },
+    "amz_Arts_Crafts_and_Sewing__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Arts_Crafts_and_Sewing__icohort",
+      "tau_half": 393.3548109970928,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.12487454317368026,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 310.236130598989,
+        "1710.0": 307.13879210745,
+        "3150.0": 393.3548109970928
+      },
+      "saturating": true,
+      "rate_mnat_per_efold": 1.7608795326204627
+    },
+    "amz_Automotive__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Automotive__icohort",
+      "tau_half": 1803.5575666429384,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.5725579576644249,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 565.9550191906105,
+        "1710.0": 962.8411471319847,
+        "3150.0": 1803.5575666429384
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 4.323033684363157
+    },
+    "amz_Baby_Products__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Baby_Products__icohort",
+      "tau_half": 2110.083068487364,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.6698676407896393,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "1710.0": 308.10953365115677,
+        "3150.0": 2110.083068487364
+      },
+      "saturating": null,
+      "rate_mnat_per_efold": 3.90163495287523
+    },
+    "amz_Office_Products__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Office_Products__icohort",
+      "tau_half": 1611.8906645505206,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.5117113220795303,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 406.9882530718381,
+        "1710.0": 698.2755888130142,
+        "3150.0": 1611.8906645505206
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 10.640905504091394
+    },
+    "amz_Pet_Supplies__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Pet_Supplies__icohort",
+      "tau_half": 1461.1588523067323,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.46385995311324835,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 521.5965392904388,
+        "1710.0": 1009.6388685679124,
+        "3150.0": 1461.1588523067323
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 11.006803914861333
+    },
+    "amz_Toys_and_Games__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Toys_and_Games__icohort",
+      "tau_half": 1721.1989148616992,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.546412353924349,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "1710.0": 1313.3839848413465,
+        "3150.0": 1721.1989148616992
+      },
+      "saturating": null,
+      "rate_mnat_per_efold": 5.965360047441183
+    },
+    "amz_Video_Games__icohort": {
+      "seeds_per_cell": 3,
+      "source": "amz_Video_Games__icohort",
+      "tau_half": 2068.300300726379,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.6566032700718664,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 508.24267634555935,
+        "1710.0": 555.7005748511873,
+        "3150.0": 2068.300300726379
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 13.118762791316792
+    },
+    "beer__icohort": {
+      "seeds_per_cell": 9,
+      "source": "beer__icohort",
+      "tau_half": 604.3832942396318,
+      "tau_max": 2790.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.21662483664502932,
+      "decades": 1.0142404391146103,
+      "truncations": {
+        "990.0": 324.1188274187224,
+        "1710.0": 381.05414246567136,
+        "2790.0": 604.3832942396318
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 8.340495055188521
+    },
+    "gameugc_finish__icohort": {
+      "seeds_per_cell": 9,
+      "source": "gameugc_finish__icohort",
+      "tau_half": 4.604745361419745,
+      "tau_max": 514.5,
+      "tau_min": 2.5,
+      "frac_of_horizon": 0.00894994239343002,
+      "decades": 2.313445370426414,
+      "truncations": {
+        "6.5": 5.230872710586885,
+        "10.5": 4.9248524779398455,
+        "18.5": 4.860645996540316,
+        "66.5": 5.226213703792232,
+        "130.5": 4.879759603933902,
+        "258.5": 4.7621986685355795,
+        "514.5": 4.604745361419745
+      },
+      "saturating": true,
+      "rate_mnat_per_efold": 4.377021480861176
+    },
+    "ml25m__icohort": {
+      "seeds_per_cell": 9,
+      "source": "ml25m__p0icohort",
+      "tau_half": 1409.0177557429113,
+      "tau_max": 4770.0,
+      "tau_min": 450.0,
+      "frac_of_horizon": 0.29539156304882835,
+      "decades": 1.0253058652647702,
+      "truncations": {
+        "810.0": 528.9783949203564,
+        "1170.0": 527.2921679701002,
+        "1890.0": 1385.7421800151044,
+        "3330.0": 1392.3049041630436,
+        "4770.0": 1409.0177557429113
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 6.623787925070709
+    },
+    "netflix__icohort": {
+      "seeds_per_cell": 9,
+      "source": "netflix__p0icohort",
+      "tau_half": 888.483255588776,
+      "tau_max": 1710.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.5195808512215064,
+      "decades": 0.8016323462331665,
+      "truncations": {
+        "630.0": 529.1199104824822,
+        "990.0": 754.8252021854901,
+        "1710.0": 888.483255588776
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 17.992449279022438
+    },
+    "yelp__icohort": {
+      "seeds_per_cell": 9,
+      "source": "yelp__p0icohort",
+      "tau_half": 1032.6477468408802,
+      "tau_max": 3150.0,
+      "tau_min": 270.0,
+      "frac_of_horizon": 0.3278246815367874,
+      "decades": 1.066946789630613,
+      "truncations": {
+        "990.0": 501.1795772476964,
+        "1710.0": 602.0280400001035,
+        "3150.0": 1032.6477468408802
+      },
+      "saturating": false,
+      "rate_mnat_per_efold": 5.816521375281273
+    }
+  },
+  "matched_horizon_movies": {
+    "netflix": {
+      "horizon": 1710.0,
+      "n_ages": 6,
+      "tau_half": 888.483255588776,
+      "lo": 864.8208664570183,
+      "hi": 918.0004764472131,
+      "rate_mnat_per_efold": 17.992449279022438,
+      "n_seeds": 9
+    },
+    "ml25m": {
+      "horizon": 1710.0,
+      "n_ages": 5,
+      "tau_half": 527.2921679701002,
+      "lo": 512.4339978091944,
+      "hi": 565.8627978446641,
+      "rate_mnat_per_efold": 2.937181792279819,
+      "n_seeds": 9
+    },
+    "comparison": {
+      "tau_ratio": 1.6849923241021039,
+      "rate_ratio": 6.125752694747856,
+      "ci_disjoint": true
+    }
+  },
+  "run_census": {
+    "by_category": {
+      "backtests_and_policies": 526,
+      "robustness_variants": 777,
+      "measurement_settings": 2229,
+      "test_period_sweeps": 1728,
+      "weekday_controls": 36,
+      "legacy_exploratory": 98
+    },
+    "n_files": {
+      "backtests_and_policies": 6,
+      "robustness_variants": 12,
+      "measurement_settings": 68,
+      "test_period_sweeps": 37,
+      "weekday_controls": 2,
+      "legacy_exploratory": 2
+    },
+    "total": 5394,
+    "total_excluding_legacy": 5296,
+    "n_settings": 68,
+    "camera_ready_by_category": {
+      "strict_nooverlap_backtests": 296,
+      "fourway_warm_cold": 522,
+      "gameugc_hygiene": 453,
+      "side_feature_controls": 114
+    },
+    "camera_ready_n_files": {
+      "strict_nooverlap_backtests": 3,
+      "fourway_warm_cold": 23,
+      "gameugc_hygiene": 4,
+      "side_feature_controls": 3
+    },
+    "camera_ready_total": 1385,
+    "total_including_camera_ready": 6681
+  },
+  "age_convention": {
+    "domains": {},
+    "n": 0,
+    "n_exceeding_seed_ci": 0,
+    "n_r2_improved": 0,
+    "median_abs_shift": null
+  },
+  "cold_threshold": {
+    "curve": {
+      "0.006": {
+        "n_flat": 16,
+        "n": 23,
+        "violators": [
+          "amz_Appliances",
+          "amz_Kindle_Store",
+          "amz_Software",
+          "beer",
+          "ml25m",
+          "netflix",
+          "steam"
+        ]
+      },
+      "0.008": {
+        "n_flat": 17,
+        "n": 23,
+        "violators": [
+          "amz_Appliances",
+          "amz_Kindle_Store",
+          "amz_Software",
+          "ml25m",
+          "netflix",
+          "steam"
+        ]
+      },
+      "0.01": {
+        "n_flat": 18,
+        "n": 23,
+        "violators": [
+          "amz_Kindle_Store",
+          "amz_Software",
+          "ml25m",
+          "netflix",
+          "steam"
+        ]
+      },
+      "0.012": {
+        "n_flat": 20,
+        "n": 23,
+        "violators": [
+          "amz_Kindle_Store",
+          "netflix",
+          "steam"
+        ]
+      },
+      "0.015": {
+        "n_flat": 20,
+        "n": 23,
+        "violators": [
+          "amz_Kindle_Store",
+          "netflix",
+          "steam"
+        ]
+      },
+      "0.02": {
+        "n_flat": 21,
+        "n": 23,
+        "violators": [
+          "netflix",
+          "steam"
+        ]
+      },
+      "0.025": {
+        "n_flat": 21,
+        "n": 23,
+        "violators": [
+          "netflix",
+          "steam"
+        ]
+      }
+    },
+    "cold_exceeds_warm": [
+      "amz_CDs_and_Vinyl",
+      "kuairand",
+      "netflix",
+      "recflow",
+      "steam"
+    ],
+    "cold_slopes": {
+      "kuairand": 0.0030548337372464625,
+      "recflow": 0.0038898289788202576,
+      "kuairec": -0.004074370348666775,
+      "ml25m": 0.010077174399979972,
+      "netflix": 0.0255250004986658,
+      "yelp": 0.004114917560959366,
+      "steam": 0.036244664306749746,
+      "beer": 0.006023777650729797,
+      "epinions": -0.012246116802259004,
+      "gameugc_play": 0.00021968969837954933,
+      "gameugc_finish": 0.0032081194611717585,
+      "amz_Appliances": 0.008315738007786613,
+      "amz_Arts_Crafts_and_Sewing": 0.0010032112156462148,
+      "amz_Automotive": 0.001954230995821628,
+      "amz_Baby_Products": 0.004311825334216964,
+      "amz_CDs_and_Vinyl": 0.0032684376670691732,
+      "amz_Kindle_Store": 0.01712886256481152,
+      "amz_Musical_Instruments": -0.002142426383665454,
+      "amz_Office_Products": 0.0036110961647319866,
+      "amz_Pet_Supplies": 0.004372628135474654,
+      "amz_Software": 0.011647947467125485,
+      "amz_Toys_and_Games": 0.001163073268652111,
+      "amz_Video_Games": 0.00411481149576725
+    }
+  },
+  "matched_horizon_periods": {
+    "netflix": {
+      "p0": {
+        "tau_half": 888.483255588776,
+        "lo": 864.2741550449422,
+        "hi": 918.1914552584797,
+        "n_ages": 6,
+        "n_seeds": 9,
+        "rate_mnat_per_efold": 17.992449279022438
+      },
+      "p1": {
+        "tau_half": 756.7764310709468,
+        "lo": 730.2980153749131,
+        "hi": 788.017102239078,
+        "n_ages": 6,
+        "n_seeds": 9,
+        "rate_mnat_per_efold": 15.165319303660954
+      },
+      "p2": {
+        "tau_half": 501.878025049589,
+        "lo": 473.7652884301489,
+        "hi": 531.0573278511318,
+        "n_ages": 5,
+        "n_seeds": 9,
+        "rate_mnat_per_efold": 15.08431171188461
+      }
+    },
+    "ml25m": {
+      "p0": {
+        "tau_half": 527.2921679701002,
+        "lo": 512.3025365933216,
+        "hi": 565.8734552621427,
+        "n_ages": 5,
+        "n_seeds": 9,
+        "rate_mnat_per_efold": 2.937181792279819
+      },
+      "p1": {
+        "tau_half": 608.8116751199958,
+        "lo": 513.2230787885902,
+        "hi": 923.5702971456084,
+        "n_ages": 5,
+        "n_seeds": 9,
+        "rate_mnat_per_efold": 1.8024198117047188
+      },
+      "p2": {
+        "tau_half": 736.5746269088511,
+        "lo": 702.230362915778,
+        "hi": 778.6209858384434,
+        "n_ages": 5,
+        "n_seeds": 9,
+        "rate_mnat_per_efold": 3.440703803618933
+      }
+    },
+    "comparison": {
+      "netflix_tau_range": [
+        501.878025049589,
+        888.483255588776
+      ],
+      "ml25m_tau_range": [
+        527.2921679701002,
+        736.5746269088511
+      ],
+      "tau_ranges_overlap": true,
+      "netflix_rate_range": [
+        15.08431171188461,
+        17.992449279022438
+      ],
+      "ml25m_rate_range": [
+        1.8024198117047188,
+        3.440703803618933
+      ],
+      "rate_ranges_overlap": false,
+      "worst_case_rate_ratio": 4.384077378592987
+    }
+  }
+}

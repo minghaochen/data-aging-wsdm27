@@ -1,0 +1,13 @@
+# Core dependencies for offline reproduction from results/ (no GPU required)
+numpy>=1.21
+scipy>=1.9
+matplotlib>=3.5
+
+# Required for raw dataset preprocessing (src/prep_gameugc.py, src/prep_recflow.py)
+# and side-feature extraction (src/stage4_side_features.py)
+pandas>=1.3
+
+# Required only to rerun model training or evaluation scripts
+# (src/train.py, src/run_*.py, src/backtest.py, src/backtest_baselines.py,
+# src/control_weekday.py, and non-summary modes of src/stage2-stage5)
+torch>=1.12

@@ -1,0 +1,163 @@
+{
+  "kuairand": {
+    "n_events": 1436609,
+    "n_items": 7551,
+    "n_users": 27077,
+    "span_days": 29.5,
+    "pos_rate": 0.4597
+  },
+  "recflow": {
+    "n_events": 30259314,
+    "n_items": 7157647,
+    "n_users": 36729,
+    "span_days": 29.0,
+    "pos_rate": 0.3797
+  },
+  "kuairec": {
+    "n_events": 12530806,
+    "n_items": 10728,
+    "n_users": 7176,
+    "span_days": 79.0,
+    "pos_rate": 0.3382
+  },
+  "ml25m": {
+    "n_events": 25000095,
+    "n_items": 59047,
+    "n_users": 162541,
+    "span_days": 9081.9,
+    "pos_rate": 0.4981
+  },
+  "netflix": {
+    "n_events": 100480507,
+    "n_items": 17770,
+    "n_users": 480189,
+    "span_days": 2242.0,
+    "pos_rate": 0.5665
+  },
+  "yelp": {
+    "n_events": 6990280,
+    "n_items": 150346,
+    "n_users": 1987929,
+    "span_days": 6181.0,
+    "pos_rate": 0.6702
+  },
+  "steam": {
+    "n_events": 21747371,
+    "n_items": 315,
+    "n_users": 12406560,
+    "span_days": 3717.9,
+    "pos_rate": 0.8747
+  },
+  "beer": {
+    "n_events": 1586266,
+    "n_items": 66051,
+    "n_users": 33387,
+    "span_days": 5620.5,
+    "pos_rate": 0.6293
+  },
+  "epinions": {
+    "n_events": 13668320,
+    "n_items": 755760,
+    "n_users": 120492,
+    "span_days": 505.0,
+    "pos_rate": 0.7695
+  },
+  "gameugc_play": {
+    "n_events": 42840704,
+    "n_items": 274287,
+    "n_users": 4480315,
+    "span_days": 545.0,
+    "pos_rate": 0.7925
+  },
+  "gameugc_finish": {
+    "n_events": 42840704,
+    "n_items": 274287,
+    "n_users": 4480315,
+    "span_days": 545.0,
+    "pos_rate": 0.4492
+  },
+  "amz_Appliances": {
+    "n_events": 2103990,
+    "n_items": 94319,
+    "n_users": 1755732,
+    "span_days": 8359.1,
+    "pos_rate": 0.7962
+  },
+  "amz_Arts_Crafts_and_Sewing": {
+    "n_events": 8841661,
+    "n_items": 801277,
+    "n_users": 4624798,
+    "span_days": 9311.1,
+    "pos_rate": 0.7871
+  },
+  "amz_Automotive": {
+    "n_events": 19692836,
+    "n_items": 2003039,
+    "n_users": 8019747,
+    "span_days": 9367.1,
+    "pos_rate": 0.7827
+  },
+  "amz_Baby_Products": {
+    "n_events": 5953891,
+    "n_items": 217654,
+    "n_users": 3386206,
+    "span_days": 8494.0,
+    "pos_rate": 0.782
+  },
+  "amz_CDs_and_Vinyl": {
+    "n_events": 4772071,
+    "n_items": 701673,
+    "n_users": 1754118,
+    "span_days": 9496.5,
+    "pos_rate": 0.8734
+  },
+  "amz_Kindle_Store": {
+    "n_events": 25302305,
+    "n_items": 1590697,
+    "n_users": 5646991,
+    "span_days": 8781.9,
+    "pos_rate": 0.8634
+  },
+  "amz_Musical_Instruments": {
+    "n_events": 2975551,
+    "n_items": 213571,
+    "n_users": 1762679,
+    "span_days": 8783.7,
+    "pos_rate": 0.8035
+  },
+  "amz_Office_Products": {
+    "n_events": 12689349,
+    "n_items": 710403,
+    "n_users": 7613158,
+    "span_days": 9101.7,
+    "pos_rate": 0.7866
+  },
+  "amz_Pet_Supplies": {
+    "n_events": 16597408,
+    "n_items": 492726,
+    "n_users": 7778407,
+    "span_days": 9294.0,
+    "pos_rate": 0.7481
+  },
+  "amz_Software": {
+    "n_events": 4828480,
+    "n_items": 89246,
+    "n_users": 2589466,
+    "span_days": 8945.9,
+    "pos_rate": 0.7224
+  },
+  "amz_Toys_and_Games": {
+    "n_events": 16052440,
+    "n_items": 890667,
+    "n_users": 8116226,
+    "span_days": 9095.9,
+    "pos_rate": 0.7846
+  },
+  "amz_Video_Games": {
+    "n_events": 4555500,
+    "n_items": 137249,
+    "n_users": 2766656,
+    "span_days": 9064.5,
+    "pos_rate": 0.745
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "M1_line": {
+    "intercept": 2.2823879379361234,
+    "slope": 1.426914306420155,
+    "fitted_on": [
+      "kuairand",
+      "ml25m",
+      "amz_Appliances",
+      "amz_Software",
+      "amz_Video_Games",
+      "amz_Baby_Products",
+      "amz_Toys_and_Games",
+      "amz_Office_Products",
+      "amz_Pet_Supplies",
+      "beer"
+    ]
+  },
+  "M2_calibration": [
+    {
+      "dom": "amz_Video_Games",
+      "b_w": 0.11869486198517284,
+      "gap": -0.12457814093811148
+    },
+    {
+      "dom": "amz_CDs_and_Vinyl",
+      "b_w": -0.01598832171977789,
+      "gap": -0.25968313008163935
+    },
+    {
+      "dom": "amz_Software",
+      "b_w": 0.1845420600458769,
+      "gap": 0.06863725178760394
+    },
+    {
+      "dom": "amz_Appliances",
+      "b_w": 0.11415952993727785,
+      "gap": -0.1297117141678581
+    },
+    {
+      "dom": "amz_Baby_Products",
+      "b_w": 0.19051413900492017,
+      "gap": -0.10717137070512062
+    },
+    {
+      "dom": "amz_Toys_and_Games",
+      "b_w": 0.15079090684031785,
+      "gap": 0.004545179371959196
+    },
+    {
+      "dom": "amz_Office_Products",
+      "b_w": 0.12865726409421935,
+      "gap": -0.027043266847646685
+    },
+    {
+      "dom": "amz_Pet_Supplies",
+      "b_w": 0.1652363318725324,
+      "gap": 0.021402164933341683
+    }
+  ],
+  "amz_Musical_Instruments": {
+    "e_cov": -1.4886324652201424,
+    "M1_delta_hat": 0.1582369763119984,
+    "M2_delta_hat": -0.9999999972973252,
+    "M2_spread": [
+      -0.9999999999999999,
+      -0.9999976105470458
+    ],
+    "M2_samples": [
+      -0.9999999965275401,
+      -0.9999999124460978,
+      -0.9999999999999999,
+      -0.9999999980671104,
+      -0.9999999848212179,
+      -0.9999999999999999,
+      -0.9999922394492579,
+      -0.9999999999999999
+    ],
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  },
+  "amz_Arts_Crafts_and_Sewing": {
+    "e_cov": -1.817561709843716,
+    "M1_delta_hat": -0.3111168686413537,
+    "M2_delta_hat": -0.9999999147564904,
+    "M2_spread": [
+      -0.9999999999999999,
+      -0.9999954379004559
+    ],
+    "M2_samples": [
+      -0.9999966436212172,
+      -0.9999999992113338,
+      -0.9999999999999979,
+      -0.9999976281748177,
+      -0.9999926245520129,
+      -0.9999999999999999,
+      -0.999999830301647,
+      -0.9999999999999999
+    ],
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  },
+  "amz_Automotive": {
+    "e_cov": -1.3602864258973089,
+    "M1_delta_hat": 0.3413757759941132,
+    "M2_delta_hat": -0.9999997591006624,
+    "M2_spread": [
+      -0.9999999999999999,
+      -0.9999982173576323
+    ],
+    "M2_samples": [
+      -0.9999996998670918,
+      -0.9999988903562236,
+      -0.9999999999999999,
+      -0.999999818334233,
+      -0.9999983619159749,
+      -0.9999999999863954,
+      -0.9999978800548328,
+      -0.9999999999999999
+    ],
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  },
+  "amz_Kindle_Store": {
+    "e_cov": -1.8303004405041805,
+    "M1_delta_hat": -0.3292939456664037,
+    "M2_delta_hat": -0.9999999674222033,
+    "M2_spread": [
+      -0.9999999999999852,
+      -0.9999953042129118
+    ],
+    "M2_samples": [
+      -0.9999962202833089,
+      -0.9999999986680453,
+      -0.999999999999979,
+      -0.9999972683343445,
+      -0.9999931667153187,
+      -0.9999999999999999,
+      -0.9999999361763612,
+      -0.9999999999999605
+    ],
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  }
+}

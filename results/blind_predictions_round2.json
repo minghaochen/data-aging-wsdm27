@@ -1,0 +1,152 @@
+{
+  "M1_line": {
+    "intercept": 2.2823879379361234,
+    "slope": 1.426914306420155,
+    "fitted_on": [
+      "kuairand",
+      "ml25m",
+      "amz_Appliances",
+      "amz_Software",
+      "amz_Video_Games",
+      "amz_Baby_Products",
+      "amz_Toys_and_Games",
+      "amz_Office_Products",
+      "amz_Pet_Supplies",
+      "beer"
+    ]
+  },
+  "M2_calibration": [
+    {
+      "dom": "amz_Video_Games",
+      "b_w": 0.11869486198517284,
+      "gap": -0.12935303382398766,
+      "s_c": 0.004116305345152945
+    },
+    {
+      "dom": "amz_CDs_and_Vinyl",
+      "b_w": -0.01598832171977789,
+      "gap": -0.2643888044907761,
+      "s_c": 0.0032723584005534736
+    },
+    {
+      "dom": "amz_Software",
+      "b_w": 0.1845420600458769,
+      "gap": 0.05515635902053073,
+      "s_c": 0.011621511158643828
+    },
+    {
+      "dom": "amz_Appliances",
+      "b_w": 0.11415952993727785,
+      "gap": -0.13935597209680117,
+      "s_c": 0.008314052568669877
+    },
+    {
+      "dom": "amz_Baby_Products",
+      "b_w": 0.19051413900492017,
+      "gap": -0.11217394813090698,
+      "s_c": 0.00431258599710512
+    },
+    {
+      "dom": "amz_Toys_and_Games",
+      "b_w": 0.15079090684031785,
+      "gap": 0.0031958108028919963,
+      "s_c": 0.0011632539590286032
+    },
+    {
+      "dom": "amz_Office_Products",
+      "b_w": 0.12865726409421935,
+      "gap": -0.031230628548640227,
+      "s_c": 0.003609810683475789
+    },
+    {
+      "dom": "amz_Pet_Supplies",
+      "b_w": 0.1652363318725324,
+      "gap": 0.016331967782285295,
+      "s_c": 0.004370879123928956
+    }
+  ],
+  "amz_Musical_Instruments": {
+    "e_cov": -1.4886324652201424,
+    "M1_delta_hat": 0.1582369763119984,
+    "M2_delta_hat": -0.9999999999999922,
+    "M2_spread": [
+      -0.9999999999999999,
+      -0.8890138565001977
+    ],
+    "M2_samples": [
+      -0.9999999999999845,
+      -0.9999967572279661,
+      -0.6300537548020712,
+      -0.9999999999999999,
+      -0.9999999999999075,
+      -0.9999999999999999,
+      -0.9999999999999999,
+      -0.9999999999999999
+    ],
+    "note": "M2 revised pre-training: v1 simulated only the A arm and saturated at the bound; v2 simulates the joint A+C fit (the actual dictionary target)",
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  },
+  "amz_Arts_Crafts_and_Sewing": {
+    "e_cov": -1.817561709843716,
+    "M1_delta_hat": -0.3111168686413537,
+    "M2_delta_hat": -0.9999992458869706,
+    "M2_spread": [
+      -0.9999999999999998,
+      -0.2785506044552281
+    ],
+    "M2_samples": [
+      -0.9999999999999999,
+      -0.9999984917739717,
+      -0.3989309639371808,
+      0.0023369010026617685,
+      -0.9999999999999921,
+      -0.9999999999999697,
+      -0.9999999999999997,
+      -0.9441756317874076
+    ],
+    "note": "M2 revised pre-training: v1 simulated only the A arm and saturated at the bound; v2 simulates the joint A+C fit (the actual dictionary target)",
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  },
+  "amz_Automotive": {
+    "e_cov": -1.3602864258973089,
+    "M1_delta_hat": 0.3413757759941132,
+    "M2_delta_hat": -0.5641744385639511,
+    "M2_spread": [
+      -0.9999985164371343,
+      -0.2076571154525982
+    ],
+    "M2_samples": [
+      -0.35045457547709535,
+      -0.9999978806244777,
+      -0.25776201302459695,
+      -0.09074568778460107,
+      -0.765312020241257,
+      -0.9999999999999999,
+      -0.548496008956074,
+      -0.5798528681718284
+    ],
+    "note": "M2 revised pre-training: v1 simulated only the A arm and saturated at the bound; v2 simulates the joint A+C fit (the actual dictionary target)",
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  },
+  "amz_Kindle_Store": {
+    "e_cov": -1.8303004405041805,
+    "M1_delta_hat": -0.3292939456664037,
+    "M2_delta_hat": -0.9999999999999982,
+    "M2_spread": [
+      -0.9999999999999999,
+      -0.9872809300769749
+    ],
+    "M2_samples": [
+      -0.9999999999999968,
+      -0.9999999979531072,
+      -0.9576031050326661,
+      -0.9999999999999999,
+      -0.9999999999999999,
+      -0.9999999999999958,
+      -0.9999999999999997,
+      -0.9999999999999999
+    ],
+    "note": "M2 revised pre-training: v1 simulated only the A arm and saturated at the bound; v2 simulates the joint A+C fit (the actual dictionary target)",
+    "criteria": "per-domain success: |delta_hat - delta| < 0.35 or in measured 90% CI; M2 beats M1 if lower MAE; rank order preserved"
+  }
+}
